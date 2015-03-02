@@ -34,15 +34,16 @@ Compiled for ArcGIS Flex Viewer v. 2.x
 
 ###KPI Editor widget
 
-credits: this widget was built using ESRI InfoTemplate widget.
+Credits: this widget was built using ESRI InfoTemplate widget.
 Compiled for ArcGIS Flex Viewer v. 2.x
+
 ---------------------------------------------------------------------------------
 
 ####Installation instructions:
 
-1) Copy the content of the KPI folder ("widgets", "popups", "assets") into your Flexviewer instance.
-2) Add the following 2 tags to your Flex Viewer's config.xml file's <widgetcontainer> section
-3) update layer url parameter to your KPI Status service.
+1. Copy the content of the KPI folder ("widgets", "popups", "assets") into your Flexviewer instance.
+2. Add the following 2 tags to your Flex Viewer's config.xml file's <widgetcontainer> section
+3. Update layer url parameter to your KPI Status service.
 ```
 		 <layer label="OPS KPI Status" type="dynamic" visible="false" alpha="0.65"
                url="[enter KPI map service URL here]">
