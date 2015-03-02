@@ -1,0 +1,8 @@
+<?xml version="1.0" ?>
+<configuration>
+    <fields>name,status,lastupdate,description,current_occupancy, max_occupancy,phone,address,city,state,lat,lon,photourl,other</fields>
+    <titlefield>{name}</titlefield>
+    <linkfield>photourl</linkfield>
+    <datefields></datefields> <!-- field in milliseconds -->
+    <zoomscale>150000</zoomscale>
+</configuration>

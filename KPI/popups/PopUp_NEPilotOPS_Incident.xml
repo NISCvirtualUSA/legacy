@@ -1,0 +1,25 @@
+<?xml version="1.0" ?>
+<configuration>
+   <title>{title}</title>
+   <fields>
+        <field name="title"  alias="Name: " visible="false"/>
+		<field name="incidenttype"  alias="Type: " visible="true"/>
+		<field name="incidenttime"  alias="Reporting Time:" visible="true"/>
+		<field name="incidentseverity"  alias="Severity: " visible="false"/>
+		<field name="reportedby"  alias="Reported By: " visible="false"/>
+		<field name="reportingagency"  alias="Reporting Agency: " visible="true"/>
+		<field name="description"  alias="Description: " visible="true"/>
+		<field name="lastupdated"  alias="Last Updated: " visible="false"/>
+		<field name="relatedlink"  alias="Related Info: " visible="false"/>
+		<field name="incidentstatus"  alias="Status: " visible="true"/>
+		
+	  </fields>
+  	  <linkfield>relatedlink</linkfield> 
+</configuration>
+<!--
+    Pop-up configuration file for:
+    http://sampleserver3.arcgisonline.com/ArcGIS/rest/services/Fire/Sheep/FeatureServer/0
+
+    See pop-up documentation at
+    http://links.esri.com/flexviewer/popups
+-->

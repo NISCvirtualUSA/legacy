@@ -1,0 +1,19 @@
+<?xml version="1.0" ?>
+<configuration>
+   <title>{name}</title>
+   <fields>
+        <field name="name"  alias="Name: " visible="false"/>
+		<field name="status"  alias="Status: " visible="true"/>
+		<field name="lastupdate"  alias="Last Update: " visible="true"/>
+		<field name="resource"  alias="Resource: " visible="false"/>
+		<field name="description"  alias="Description: " visible="false"/>
+	  </fields>
+  	  <linkfield>PHOTOURL</linkfield> 
+</configuration>
+<!--
+    Pop-up configuration file for:
+    http://sampleserver3.arcgisonline.com/ArcGIS/rest/services/Fire/Sheep/FeatureServer/0
+
+    See pop-up documentation at
+    http://links.esri.com/flexviewer/popups
+-->

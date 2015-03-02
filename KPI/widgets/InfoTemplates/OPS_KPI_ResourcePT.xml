@@ -1,0 +1,8 @@
+<?xml version="1.0" ?>
+<configuration>
+    <fields>name, status,lastupdate,resource,description</fields>
+    <titlefield>{name}</titlefield>
+    <linkfield></linkfield>
+    <datefields></datefields> <!-- field in milliseconds -->
+    <zoomscale>150000</zoomscale>
+</configuration>

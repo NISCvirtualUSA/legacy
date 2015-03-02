@@ -1,0 +1,17 @@
+<?xml version="1.0" ?>
+<configuration>
+   <title>{status}</title>
+   <fields>
+        
+		<field name="status"  alias="Status: " visible="true"/>
+		
+	  </fields>
+  	  <linkfield></linkfield> 
+</configuration>
+<!--
+    Pop-up configuration file for:
+    http://sampleserver3.arcgisonline.com/ArcGIS/rest/services/Fire/Sheep/FeatureServer/0
+
+    See pop-up documentation at
+    http://links.esri.com/flexviewer/popups
+-->

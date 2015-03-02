@@ -1,0 +1,20 @@
+<?xml version="1.0" ?>
+<configuration>
+    <!-- path to the JIEE Mission service; note: this service may be deprecated -->
+    <source>https://jiee.ngb.army.mil/arcgisexplorer500/KML/GEORSS_JIEE_MISSIONS.xml</source>
+    <fields>
+        <field name="description" alias=""/>
+    </fields>
+    <iconfolder>widgets/JieeMissionsWidget/assets/JieeImages/</iconfolder>  <!-- path to the folder where the JIEE icons are located, don't forget the closing slash -->
+    <refreshrate>60</refreshrate>                                   <!-- refresh rate is in seconds -->
+    <zoomscale>1000000</zoomscale>
+    <symbols>
+    	<!-- use this to customize the size of each location icon -->
+    	<picturemarkersymbol height="30" width="30" xoffset="0" yoffset="0" angle="0" />
+    </symbols>
+</configuration>
+
+<!--
+    See GeoRSS widget documentation at
+    http://links.esri.com/georsswidget
+-->

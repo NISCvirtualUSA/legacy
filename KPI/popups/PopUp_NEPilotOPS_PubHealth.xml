@@ -1,0 +1,26 @@
+<?xml version="1.0" ?>
+<configuration>
+   <title>{NAME}</title>
+   <fields>
+        <field name="NAME"  alias="Name: " visible="false"/>
+		<field name="STATUS"  alias="Status: " visible="true"/>
+		<field name="LASTUPDATE"  alias="Last Update: " visible="true"/>
+		<field name="DESCRIPTION"  alias="Description: " visible="true"/>
+		<field name="CURRENT_OCCUPANCY" alias="Current Occupancy: " visible="true"/>
+		<field name="MAX_OCCUPANCY" alias="Maximum Occupancy: " visible="true"/>
+		<field name="PHONE" alias="Phone: " visible="true"/>
+		<field name="ADDRESS" alias="Address: " visible="true"/>
+		<field name="CITY" alias="City: " visible="true"/>
+		<field name="STATE" alias="State: " visible="true"/>
+		<field name="PHOTOURL" alias="Photo: " visible="true"/>
+		<field name="OTHER" alias="Other: " visible="true"/>
+	  </fields>
+  	  <linkfield>PHOTOURL</linkfield> 
+</configuration>
+<!--
+    Pop-up configuration file for:
+    http://sampleserver3.arcgisonline.com/ArcGIS/rest/services/Fire/Sheep/FeatureServer/0
+
+    See pop-up documentation at
+    http://links.esri.com/flexviewer/popups
+-->

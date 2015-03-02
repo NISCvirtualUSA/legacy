@@ -1,0 +1,25 @@
+<?xml version="1.0" ?>
+<configuration>
+   <title>{NAME}</title>
+   <fields>
+        <field name="name"  alias="Name: " visible="false"/>
+		<field name="utility_type"  alias="Utility Type: " visible="true"/>
+		<field name="description"  alias="Description: " visible="true"/>
+		<field name="outage_date" alias="Outage Date: " visible="true"/>
+		<field name="utilities_affected" alias="Utilities Affected: " visible="true"/>
+		<field name="public_or_em_instructions" alias="Instructions: " visible="true"/>
+		<field name="estimated_restore_time" alias="Estimated Restore Time: " visible="true"/>
+		<field name="percent_pop_affected" alias="% Population Affected: " visible="true"/>
+		<field name="lastupdate"  alias="Last Update: " visible="true"/>
+		<field name="utility_subtype" alias="Utility Subtype: " visible="true"/>
+		<field name="status" alias="Status: " visible="true"/>
+	  </fields>
+  	  <linkfield></linkfield> 
+</configuration>
+<!--
+    Pop-up configuration file for:
+    http://sampleserver3.arcgisonline.com/ArcGIS/rest/services/Fire/Sheep/FeatureServer/0
+
+    See pop-up documentation at
+    http://links.esri.com/flexviewer/popups
+-->

@@ -1,0 +1,8 @@
+<?xml version="1.0" ?>
+<configuration>
+    <fields>title, incidenttype,incidenttime,incidentseverity,reportedby,reportingagency,description,lastupdated,relatedlink,incidentstatus</fields>
+    <titlefield>{title}</titlefield>
+    <linkfield>relatedlink</linkfield>
+    <datefields></datefields> <!-- field in milliseconds -->
+    <zoomscale>150000</zoomscale>
+</configuration>

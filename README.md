@@ -1,2 +1,58 @@
 # legacy
 Legacy apps and widgets
+
+
+##Instructions
+
+###NGB Joint Information Exchange Environment - Events & Missions GeoRSS feed widget
+Compiled for ArcGIS Flex Viewer v. 2.x
+
+For more information please visit http://www.jiee.info
+---------------------------------------------------------------------------------
+credits: this widget was built using ESRI Flexviewer's GeoRSS widget.
+
+Installation instructions:
+
+1) Copy the folders "JieeEventsWidget" and "JieeMissionsWidget" into the widgets folder of your Flex Viewer instance.
+2) Add the following 2 tags to your Flex Viewer's config.xml file's <widgetcontainer> section
+3) Update service URL for <SourceURL> tag in JieeEventsWidget.xml and/or JieeMissionsWidget to point to live service.
+```
+		<widget label="JIEE Events" left="50" top="50" preload="open"
+		        icon="widgets/JieeEventsWidget/assets/images/jiee.png"
+		        config="widgets/JieeEventsWidget/JieeEventsWidget.xml"
+		        url="widgets/JieeEventsWidget/JieeEventsWidget.swf"/>
+```
+```
+		<widget label="JIEE Missions" left="50" top="360" preload="open"
+		        icon="widgets/JieeMissionsWidget/assets/images/jiee.png"
+		        config="widgets/JieeMissionsWidget/JieeMissionsWidget.xml"
+		        url="widgets/JieeMissionsWidget/JieeMissionsWidget.swf"/>
+```
+
+
+###NGB Joint Information Exchange Environment - Events & Missions GeoRSS feed widget
+Compiled for ArcGIS Flex Viewer v. 2.x
+
+For more information please visit http://www.jiee.info
+---------------------------------------------------------------------------------
+credits: this widget was built using ESRI Flexviewer's GeoRSS widget.
+
+
+Installation instructions:
+
+1) Copy the folders "JieeEventsWidget" and "JieeMissionsWidget" into the widgets folder of your Flex Viewer instance.
+2) Add the following 2 tags to your Flex Viewer's config.xml file's <widgetcontainer> section
+3) Update service URL for <SourceURL> tag in JieeEventsWidget.xml and/or JieeMissionsWidget to point to live service.
+
+```
+		<widget label="JIEE Events" left="50" top="50" preload="open"
+		        icon="widgets/JieeEventsWidget/assets/images/jiee.png"
+		        config="widgets/JieeEventsWidget/JieeEventsWidget.xml"
+		        url="widgets/JieeEventsWidget/JieeEventsWidget.swf"/>
+```
+```	
+		<widget label="JIEE Missions" left="50" top="360" preload="open"
+		        icon="widgets/JieeMissionsWidget/assets/images/jiee.png"
+		        config="widgets/JieeMissionsWidget/JieeMissionsWidget.xml"
+		        url="widgets/JieeMissionsWidget/JieeMissionsWidget.swf"/>
+```

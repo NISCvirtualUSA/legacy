@@ -1,0 +1,8 @@
+<?xml version="1.0" ?>
+<configuration>
+    <fields>name,utility_type,description,outage_date,utilities_affected,public_or_em_instructions,estimated_restore_time,percent_pop_affected,lastupdate,utility_subtype,status</fields>
+    <titlefield>{name}</titlefield>
+    <linkfield></linkfield>
+    <datefields></datefields> <!-- field in milliseconds -->
+    <zoomscale>150000</zoomscale>
+</configuration>
